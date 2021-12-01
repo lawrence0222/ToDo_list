@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+//import App from './App.vue'
 import router from './router'
 import store from './store'
-import ToDo from './views/ToDo.vue'
+import TODO from './TODO.vue'
 
-createApp(ToDo).use(store).use(router).mount('#app')
+createApp(TODO).use(store).use(router).mount('#app')
